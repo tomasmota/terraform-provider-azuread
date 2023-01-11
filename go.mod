@@ -8,6 +8,8 @@ require (
 	golang.org/x/text v0.3.7
 )
 
+replace github.com/manicminer/hamilton => ../hamilton
+
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-cidr v1.1.0 // indirect
